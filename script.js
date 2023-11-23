@@ -11,9 +11,10 @@
 // Add more code to the event listener for the link that pops up an alert that says “No distractions! I’m coding!”
 
 function buttonClick () {
-    console.log(" ");
+    console.log("I was Picked! ");
 }
 
 let button = document.querySelector("button");
 
 button.addEventListener("click", buttonClick);
+button.removeEventListener("click", buttonClick);
