@@ -18,3 +18,6 @@ let button = document.querySelector("button");
 
 button.addEventListener("click", buttonClick);
 button.removeEventListener("click", buttonClick);
+
+
+let link = document.querySelector("a");
